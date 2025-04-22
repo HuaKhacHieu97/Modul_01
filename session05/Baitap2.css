@@ -1,0 +1,9 @@
+
+p {
+    background-color: #cecece;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  p:hover {
+    background-color: gray;
+  }

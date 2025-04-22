@@ -1,0 +1,52 @@
+
+ header {
+    background-color: #4CAF50;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .hero {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  .hero h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  .hero p {
+    margin-bottom: 20px;
+  }
+  .hero button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .features {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 20px;
+  }
+  .feature {
+    background-color: #ddd;
+    padding: 30px;
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+  }
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1px;
+  }

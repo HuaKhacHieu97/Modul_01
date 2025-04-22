@@ -1,0 +1,51 @@
+header {
+    background-color: #1f1f23;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  .intro {
+    background-color: #eee;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+  }
+  .intro img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;  
+    object-fit: cover;   
+    border: 2px solid #333; 
+  }
+  .projects {
+    padding: 20px;
+  }
+  .project-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin-top: 10px;
+  }
+  .project {
+    background-color: #1f1f23;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 8px;
+    min-width: 100px;
+    text-align: center;
+  }
+  footer {
+    background-color: #eee;
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+  }

@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #fefaf3;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+    align-items: center;
+    background-color: #fff;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .logo .dot {
+    color: orange;
+  }
+  
+  .nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  .nav-links a:first-child {
+    border-bottom: 2px solid black;
+  }
+  
+  .signup-btn {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 60px;
+    flex-wrap: wrap;
+  }
+  
+  .hero-left {
+    position: relative;
+    flex: 1;
+  }
+  
+  .hero-img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 20px;
+  }
+  
+  .course-box {
+    position: absolute;
+    bottom: -20px;
+    right: 0;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .course-item {
+    margin-bottom: 15px;
+  }
+  .course-item h4 {
+    margin: 5px 0 0;
+  }
+  .course-item.yellow p { color: #fbbf24; }
+  .course-item.purple p { color: #a78bfa; }
+  .course-item.blue p { color: #60a5fa; }
+  
+  .hero-right {
+    flex: 1;
+    padding-left: 60px;
+    max-width: 500px;
+  }
+  
+  .hero-right h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-right p {
+    color: #555;
+    margin-bottom: 25px;
+  }
+  
+  .cta-buttons {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .see-courses {
+    background-color: #fbbf24;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .watch-video {
+    background: transparent;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .stats {
+    display: flex;
+    gap: 40px;
+    font-size: 1.1rem;
+  }

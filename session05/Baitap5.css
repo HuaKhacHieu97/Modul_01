@@ -1,0 +1,51 @@
+.id1{
+background-color: gray;
+color: rgb(243, 244, 244);
+font-size: large;
+font-weight: 400;
+width:100px;
+height: 100px;
+text-align:center;
+line-height: 100px;
+}
+.id1:hover{
+    background-color: rgb(192, 187, 187);
+} 
+.id2{
+background-color: rgb(132, 135, 139);
+color: rgb(247, 246, 249);
+font-size: large;
+font-weight: 400;
+width:200px;
+height: 100px;
+text-align:center;
+line-height: 100px;
+}
+.id2:hover{
+    background-color: rgb(67, 67, 244);
+}
+.id3{
+    background-color: rgb(103, 105, 108);
+    color: rgb(247, 246, 249);
+    font-size: large;
+    font-weight: 400;
+    width:100px;
+    height: 100px;
+    text-align:center;
+    line-height: 100px;
+}
+.id3:hover{
+background-color:rgb(103, 105, 108);
+width: 90px;
+height: 90px;
+}
+.id4{
+    background-color: rgb(103, 105, 108);
+    color: rgb(247, 246, 249);
+    font-size: large;
+    font-weight: 400;
+    width:100px;
+    height: 100px;
+    text-align:center;
+    line-height: 100px;
+}
